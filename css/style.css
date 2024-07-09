@@ -11,6 +11,9 @@
     background-color: blue;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     background-color: rgb(2, 11, 56);
     padding: 20px 10px;
@@ -24,4 +27,27 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+main h2{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 0px;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: rgb(2, 11, 56);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.btn-white:hover{
+    background-color: azure;
 }

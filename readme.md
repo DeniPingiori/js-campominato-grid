@@ -21,3 +21,14 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 
 
 SCOMPOSIZIONE ES: 
+1. - clicco sul pulsante per mostrare la griglia
+2. - preventivamente svuoto il tag preddisposto al contenimento della griglia di tutti
+     gli elementi interi
+3. - creo la gliglia in js
+3.1 - eseguo un for da 1 a 100
+3.2 - all'interno del for creo la casella
+3.4 - inserisco il testo all'interno della casella
+3.5 - dire alla casella di rimanere in attesa dell'evento click
+3.5.1 al click della casella cambia colore
+3.5.2 mostro in console il num della casella cliccata
+3.6 - appendo la casella nella griglia
