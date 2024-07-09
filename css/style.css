@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid {
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+header{
+    background-color: rgb(2, 11, 56);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
