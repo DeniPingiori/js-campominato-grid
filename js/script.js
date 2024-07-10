@@ -14,7 +14,7 @@ function createSingleSquare(num){
     return square;
 }
 
-//richiamo il pulsante 
+//richiamo il pulsante dal DOM
 const button = document.getElementById('play');
 
 //evento click
@@ -26,10 +26,10 @@ button.addEventListener('click', function(){
 
     //ciclo x creare le 100 caselle
     for(let i = 0; i<100; i++ ) {
-        //chiamo la funzione x creare le caselle passandole come indice attuale
-        let square = createSingleSquare(i)
+        //chiamo la funzione x creare le caselle passandole come indice attuale x scriverci dentro
+        let item = createSingleSquare(i)
 
-        grid.append(square);
+        grid.append(item);
     }
 });
 
