@@ -10,7 +10,11 @@ function createSingleSquare(num){
     square.innerText = num + 1;
 
     //aggiungo l'evento click al quadrato
+    square.addEventListener('click', function(){
+        console.log(this.innerText); //parola chiave this per chiamare il pulsante
+    });
 
+    //restituisco il quadrato
     return square;
 }
 
