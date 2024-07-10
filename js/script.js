@@ -11,6 +11,10 @@ function createSingleSquare(num){
 
     //aggiungo l'evento click al quadrato
     square.addEventListener('click', function(){
+
+        this.classList.add('clicked');
+
+        //mostro in console il num della casella cliccata
         console.log(this.innerText); //parola chiave this per chiamare il pulsante
     });
 

@@ -65,3 +65,7 @@ main h2{
     border: 1px solid #fff;
     background-color: rgb(4, 21, 107);;
 }
+
+.clicked {
+    background-color: blue;
+}
